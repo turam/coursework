@@ -9,7 +9,10 @@ module.exports = {
         "/", 
         "/getting-setup", 
         "/managing-files",
-        "/github-walkthrough",
+        "/github-pull-requests",
+        "/encoding-html",
+        "/github-pages",
+        "/emmet-autocomplete"
     ]
   }
 };

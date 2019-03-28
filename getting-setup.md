@@ -1,5 +1,7 @@
 # Getting setup tutorial
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rfK1kauUNBA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Before you get started with this course, you need to install a few tools and create a few accounts. All of these things are free and available on all major platforms (Windows, OS X, and Linux).
 
 Most screenshots and examples will be on a Mac OS machine.

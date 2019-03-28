@@ -1,5 +1,7 @@
 # Managing files tutorial
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/q3e4eYHpO-k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Website consist of many files, folders and assets. These files are living documents that change over time.
 
 ## Version control systems
@@ -156,34 +158,6 @@ Now that the changes have been pushed, visiting the repository on GitHub should 
 
 This process can seem a bit straining at first, especially when coming from the process in desktop application or Google Web apps, where changes are saved in real time or without comments. After going through this course you will have an understanding of why this process is important. Thinking of changes to a codebase as "snapshots" in time allows you as a developer to isolate a bundle of changes (HTML, CSS, Images, etc) around a description and moving between each state in the code changes all the necessary files at once.
 
-## Working collaboratively
-
-Often code is not created in isolation, especially if it is open source. Some time you want to work on a feature or some part of the code that may not work out and need
-
-## Branching and Merging
-
-![Animation of creating a branch in GitHub Desktop](./images/managing-files/github-desktop-branch.gif)
-
-Once you have added content, commit those changes and publish them to GitHub.
-
-![Animation of committing and publishing to GitHub](./images/managing-files/github-desktop-commit-to-branch.gif)
-
-## Pull Requests
-
-![Animation of submitting a pull request](./images/managing-files/github-submit-pr.gif)
-
-## Merging in a pull request
-
-![Animation of merging in a pull request](./images/managing-files/github-merge-pr.gif)
-
-## Pull newest changes to your desktop
-
-![Animation of fetching new changes from GitHub](./images/managing-files/github-fetch-changes.gif)
-
-## Keep Practicing
-
-This is a great time to experiment with the process of changing code, committing the code through the GitHub Desktop application and pushing it to the server. The number of commits you have in a repository is not important. At this point it is important to get the process down, as all future assignments will require changes to code inside a repository that is pushed to GitHub.
-
 ## Additional resources
 
 - [GitHub Desktop how-to guides](https://help.github.com/en/desktop/contributing-to-projects)
@@ -191,5 +165,3 @@ This is a great time to experiment with the process of changing code, committing
 - [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/)
 - [VSCode intro videos](https://code.visualstudio.com/docs/getstarted/introvideos)
 - [Markdown guide](https://guides.github.com/features/mastering-markdown/)
-- [About forks](https://help.github.com/en/articles/about-forks)
-- [Creating a pull request from a fork](https://help.github.com/en/articles/creating-a-pull-request-from-a-fork)
