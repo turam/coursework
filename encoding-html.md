@@ -47,7 +47,7 @@ The name index.html is special on the web. When a web browser asks a web server 
 
 HTML files start with a document type declaration, commonly referred to as the " doctype." The HTML version 5 document type declaration is really simple. Enter this as the first line of your HTML file:
 
-```
+```html
 <!DOCTYPE html>
 ```
 
@@ -69,7 +69,7 @@ These tree data structures are used all of the place in computer software. For e
 
 The nodes in an HTML document tree are known as elements. An element has the following syntax:
 
-```
+```html
 <element-name>...some content...</element-name>
 ```
 
@@ -77,7 +77,7 @@ The nodes in an HTML document tree are known as elements. An element has the fol
 
 An element is composed of a start tag and end tag and some content in between. The start tag is this bit:
 
-```
+```html
 <element-name>
 ```
 
@@ -85,13 +85,13 @@ The element-name part will be whatever the element's name is: for example, html,
 
 The end tag looks just like the start tag, except it has a forward-slash just after the less-than sign:
 
-```
+```html
 </element-name>
 ```
 
 That marks the end of the element. What goes in between is the element's content, which can be plain text, other elements, or a mixture of both. For example, a paragraph element might have some text as well as other elements to emphasize specific words within the paragraph:
 
-```
+```html
 <p>I really want to <em>emphasize</em> that last point!</p>
 ```
 
@@ -103,7 +103,7 @@ The `<em>` element is used for content that is emphasized, and it can be nested 
 
 The start tag of an element may also contain one or more attributes, which are used to specify options, provide additional information, or add subtler shades of meaning to an element. Attributes go inside the start tag, and look like this:
 
-```
+```html
 <p lang="en" class="alert">...some content...</p>
 ```
 
@@ -113,13 +113,13 @@ The syntax for attributes is a name, followed by an equal sign, followed by a va
 
 A few HTML elements don't require a separate end-tag because they can't contain any child elements or other textural content. A great example is the <img> element, which is used for inserting images into the page. You can specify the path to the image file in an attribute named src, but the image element itself can't contain additional text or other content. In these cases, all you need to include is the start tag:
 
-```
+```html
 <img src="path/to/my/image.png" alt="descriptive text for screen readers and indexers">
 ```
 
 These are known as self-closing elements. You may also see these kinds of elements with a forward slash included before the ending greater-than sign. This was required by previous versions of HTML (especially in XHTML), but in HTML5 it's totally optional. Some purists will still insist that you include it, and if you do, it looks like this:
 
-```
+```html
 <img src="path/to/my/image.png" alt="descriptive text for screen readers and indexers"/>
 ```
 
@@ -129,7 +129,7 @@ But again, this is no longer required in HTML5, so feel free to omit that forwar
 
 Besides doctype declarations, elements, and attributes, the only other legal syntax in an HTML file is a comment, which looks like this:
 
-```
+```html
 <!-- this is a comment -->
 ```
 
@@ -141,7 +141,7 @@ Since the syntax is quite awkward to type, most web-optimized editors have a bui
 
 Now that you understand the basic HTML syntax, let's see how they combine to create a basic page. As we noted earlier, every page begins with the HTML5 doctype declaration, and the rest is a tree of elements containing content. The root element is named `<html>` and it should contain two child elements: `<head>` and `<body>`. Add this to your page:
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -157,7 +157,7 @@ Now that you understand the basic HTML syntax, let's see how they combine to cre
 
 The `<head>` element contains information about the page that doesn't appear in the main content window when viewing the page in the browser. For example, we can specify the title of the page here:
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -175,7 +175,7 @@ Note that I indented the `<title>` element so that it visibly looks like it's co
 
 Another element you commonly see the in the `<head>` section is `<meta>`, which can be used to specify lots of different meta-data about the page. One very important bit of meta-data is the character set used when saving this file. The character set tells the browser how to translate the bits it receives from the server (or the local disk) into letters. Nearly all editors these days will save files in the UTF-8 character set, as it allows the mixing of different scripts (Latin, Cyrillic, Chinese, Arabic, etc) in the same file, while still optimizing the file's size. To tell the browser that this file was saved in UTF-8, add the following `<meta>` element to the `<head>` section:
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -190,7 +190,7 @@ Another element you commonly see the in the `<head>` section is `<meta>`, which 
 
 You can also use the `<meta>` element to specify other meta-data, such as the author, description, and keyword information about your document:
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -210,7 +210,7 @@ Again, these are not visible in the browser window, but programs like search ind
 
 Another important `<meta>` element to define is the one that controls how a browser on a mobile device handles zooming of the page. By default, a mobile browser will attempt to zoom out to show the entire page when it first loads. This is necessary if the page doesn't adjust its layout for smaller screens, but if your page is responsive to the screen width (which ours will be), you can tell the browser not to zoom out using the `<meta name="viewport">` element:
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -231,7 +231,7 @@ Another important `<meta>` element to define is the one that controls how a brow
 
 The `<body>` element contains all the content that is visible on the page. There are many elements you can use here to convey your document's content. For now, let's just add a heading and a paragraph:
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -274,7 +274,7 @@ The `<h1>` element from above is a top-level heading. It is not limited to one p
 
 As noted above, adding an image to your page is done using the `<img>` element:
 
-```
+```html
 <img src="path/to/my/image.png" alt="descriptive text for screen readers and indexers">
 ```
 
@@ -287,7 +287,7 @@ The alt attribute should contain some text that describes the image. This is pri
 
 There are three kinds of lists in HTML: unordered, ordered, and dictionary lists. Unordered lists are for list of things that have no particular logical ordering, such as ingredients for a recipe:
 
-```
+```html
 <ul>
     <li>1 tablespoon of oil</li>
     <li>1 onion diced</li>
@@ -303,7 +303,7 @@ The `<ul>` element defines an unordered list, and the `<li>` element is used for
 
 Ordered lists are for things that have a specific logical order: for example, steps in the recipe's preparation:
 
-```
+```html
 <ol>
     <li>Heat the oil in the pan until smoking</li>
     <li>Fry the onions until golden</li>
@@ -317,7 +317,7 @@ Add the garlic and cook until fragrant, about 30 seconds
 
 Dictionary lists are for sets of terms with related definitions. This is obviously useful for encoding words and their meanings, but it can also be used for other name and definition pairs, such as dishes on a restaurant menu:
 
-```
+```html
 <dl>
     <dt>Baguette with Butter</dt>
     <dd>A toasted Grand Central baguette with salted butter</dd>
@@ -340,7 +340,7 @@ Using the correct list type helps programs that read the page know how to interp
 
 The "H" in HTML standard for "Hypertext," which means that page should link to each other. Encoding a link is done using the `<a>` element:
 
-```
+```html
 <a href="https://google.com">Search on Google</a>
 ```
 
@@ -352,7 +352,7 @@ The href attribute should contain the URL for the page you want to navigate to. 
 
 Hyperlinks can also link to another section of the same document. We call these bookmark links. When activated, the browser scrolls the window so that the element the links points to is at the top of the browser window. They look like this:
 
-```
+```html
 <p>For more detail see the <a href="#details">Details section</a> later in this document.</p>
 
 ...more content...
@@ -368,7 +368,7 @@ The id attribute can be added to any element, but the value must be unique withi
 
 Instead of pointing to another page or another section of the same page, hyperlinks can also invoke other actions. For example, if you want a hyperlink to start a new email message to a particular email address when activated, just set the href attribute to mailto:some-address@domain.com. For example:
 
-```
+```html
 <p>For more information <a href="mailto:informatics@uw.edu">contact us by email</a>.</p>
 ```
 
@@ -378,7 +378,7 @@ You can also preset the subject line and carbon-copy addresses. See the mailto s
 
 A handy variant for mobile phones is the tel:some-phone-number syntax. When activated, these links ask users if they want to dial the number after the tel:. Here's a quick example:
 
-```
+```html
 <p>For more information <a href="tel:+12065551212">give us a call</a>!</p>
 ```
 
