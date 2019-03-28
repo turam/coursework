@@ -12,7 +12,9 @@ module.exports = {
         "/github-pull-requests",
         "/encoding-html",
         "/github-pages",
-        "/emmet-autocomplete"
+        "/emmet-autocomplete",
+        "/browsersync",
+        "/adding-css"
     ]
   }
 };

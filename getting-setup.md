@@ -8,7 +8,7 @@ Most screenshots and examples will be on a Mac OS machine.
 
 ## Sign up
 
-- [GitHub](https://github.com) - We will store all code in GitHub. There is also a Student Developer Pack which gives you unlimited private repositories and other useful resources.
+- [GitHub](https://github.com) - We will store all code in GitHub. There is also a [Student Developer Pack](https://education.github.com/pack) which gives you unlimited private repositories and other useful resources.
 
 ## Desktop tools
 
