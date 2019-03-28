@@ -6,17 +6,17 @@ Most screenshots and examples will be on a Mac OS machine.
 
 ## Sign up
 
-[GitHub](https://github.com) - We will store all code in GitHub. There is also a Student Developer Pack which gives you unlimited private repositories and other useful resources.
+- [GitHub](https://github.com) - We will store all code in GitHub. There is also a Student Developer Pack which gives you unlimited private repositories and other useful resources.
 
 ## Desktop tools
 
-[GitHub Desktop](https://desktop.github.com/) - This tool makes working with GIT visual.
-[Visual Studio Code](https://code.visualstudio.com/) - Code editor we will be using throughout the course.
-[Google Chrome](https://www.google.com/chrome/) - Web browser with developer tools that will allow us to inspect Web pages and javascript.
+- [GitHub Desktop](https://desktop.github.com/) - This tool makes working with GIT visual.
+- [Visual Studio Code](https://code.visualstudio.com/) - Code editor we will be using throughout the course.
+- [Google Chrome](https://www.google.com/chrome/) - Web browser with developer tools that will allow us to inspect Web pages and javascript.
 
 ## Command line tools
 
-[Node JS and NPM](https://nodejs.org/en/download/) - These tools will help us build modern Web pages.
+- [Node JS and NPM](https://nodejs.org/en/download/) - These tools will help us build modern Web pages.
 These tools can be downloaded from the website.
 
 ### Homebrew

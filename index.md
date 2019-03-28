@@ -2,6 +2,8 @@
 
 Welcome to Beginning Web Development! This is an entirely online course that will teach you the basics of client-side web development. This is a true beginner's course: it assumes no prior programming experience, and the difficulty level is set for those who have never done any kind of programming before.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NAKyoc2KoFg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Teaching team
 
 ### Nick DeNardis, Instructor
