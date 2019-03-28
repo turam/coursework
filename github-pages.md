@@ -1,8 +1,10 @@
 # Publishing to GitHub pages
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/teT5uIc4ZVI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 You can configure GitHub Pages to publish your site's source files from master, gh-pages, or a /docs folder on your master branch for Project Pages and other Pages sites that meet certain criteria.
 
-If your site is a User or Organization Page that has a repository named `<username>.github.io or <orgname>.github.io`, you cannot publish your site's source files from different locations. User and Organization Pages that have this type of repository name are only published from the master branch.
+If your site is a User or Organization Page that has a repository named `<username>.github.io` or `<orgname>.github.io`, you cannot publish your site's source files from different locations. User and Organization Pages that have this type of repository name are only published from the master branch.
 
 ## Create a branch to publish
 
