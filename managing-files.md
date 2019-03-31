@@ -1,6 +1,6 @@
 # Managing files tutorial
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/q3e4eYHpO-k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="725" height="408" src="https://www.youtube.com/embed/q3e4eYHpO-k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Website consist of many files, folders and assets. These files are living documents that change over time.
 
