@@ -3,7 +3,7 @@ module.exports = {
   description: "Intro to Web Development",
   base: "/coursework/",
   head: [["link", { rel: "shortcut icon", href: "/favicon.ico" }]],
-  ga: "",
+  ga: "UA-116416182-2",
   themeConfig: {
     sidebar: [
         "/", 
